@@ -115,6 +115,47 @@
   list-style-type: none;
 }
 
+#resume-title {
+  text-align: center;
+  font-family: "fantasy";
+  font-size: 37px;
+}
+
+#resume-grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+.experience {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+#resume-info {
+  background-color: cadetblue;
+}
+
+#work-experience-title {
+  background-color: darkorchid;
+}
+
+#education-title {
+  background-color: coral;
+}
+
+.circle-margin {
+  margin-right: 5rem;
+}
+
+#skills-and-languages ul {
+  padding-left: 0;
+}
+#skills-and-languages ul li {
+  list-style-type: none;
+}
+
 footer {
   background-color: mediumturquoise;
   margin: 0;

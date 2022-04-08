@@ -1,0 +1,46 @@
+@use './mixins';
+
+#resume-title {
+  text-align: center;
+  font-family: 'fantasy';
+  font-size: 37px;
+}
+
+#resume-grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+.experience {
+  @include mixins.flex-list;
+  align-items: center;
+}
+
+#resume-info {
+  @include mixins.circle-colour;
+}
+
+#work-experience-title {
+  @include mixins.circle-colour($colour: darkorchid);
+}
+
+#education-title {
+  @include mixins.circle-colour($colour: coral);
+}
+
+.circle-margin {
+  margin-right: 5rem;
+}
+
+#skills-and-languages {
+  
+  ul {
+    padding-left: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
+  
+}

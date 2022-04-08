@@ -10,3 +10,7 @@
 @mixin about-me-title-freelancer {
   font-size: 37px;
 }
+
+@mixin circle-colour($colour: cadetblue) {
+  background-color: $colour;
+}
