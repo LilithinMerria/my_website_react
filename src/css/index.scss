@@ -1,0 +1,19 @@
+@use './nav';
+@use './mixins';
+@use './main_section';
+@use './footer';
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
+@import url("https://kit.fontawesome.com/66b7af4aa6.js");
+@import url("https://fonts.gstatic.com");
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 85%;
+}

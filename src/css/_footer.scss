@@ -1,0 +1,46 @@
+@use './mixins';
+
+$paddingFooter : 7px;
+
+footer {
+  background-color: mediumturquoise;
+  margin: 0;
+  width: 100%;
+  .footer-list {
+    
+   a {
+      text-decoration: none;
+    }
+  }
+}
+
+#footer-list {
+  @include mixins.flex-list;
+  justify-content: space-evenly;
+  margin: 0;
+  padding-top: 1.4rem;
+  padding-left: 0;
+}
+
+.brand-icon {
+  font-size: 2rem;
+}
+
+#social-media-icons {
+  @include mixins.flex-list;
+
+  li {
+    padding: 4px;
+  }
+}
+
+.contact-footer {
+  padding: $paddingFooter;
+  padding-left: 0;
+}
+
+#made-by {
+  margin-top: 0.3rem;
+  text-align: center;
+}
+

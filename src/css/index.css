@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
+@import url("https://kit.fontawesome.com/66b7af4aa6.js");
+@import url("https://fonts.gstatic.com");
+.nav-element {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+#navigation {
+  padding-top: 0.5rem;
+}
+
+#freelancer {
+  font-size: 37px;
+}
+
+#nav-right {
+  align-items: flex-end;
+}
+
+.title {
+  margin: 0;
+  font-family: "Crimson Text", serif, sans-serif;
+  font-size: 70px;
+  color: slategray;
+}
+
+.nav-list-right {
+  padding: 7px;
+  color: lightgray;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#nav-list {
+  padding-top: 4.89rem;
+}
+
+#nav-list a {
+  text-decoration: none;
+}
+
+#main-section {
+  display: flex;
+  list-style-type: none;
+}
+
+#main-image {
+  width: 380px;
+  border-radius: 50%;
+}
+
+.main-section {
+  padding-top: 2.5rem;
+}
+.main-section h1 {
+  font-size: 70px;
+}
+
+.title {
+  margin: 0;
+}
+
+#about-me {
+  font-size: 57px;
+  margin-left: 200px;
+}
+
+#about-me-title {
+  font-size: 37px;
+}
+
+.main-flex {
+  padding: 12px;
+}
+
+.resume-list {
+  margin: 0;
+  font-size: 16px;
+  padding: 2.5rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  flex: 0 0 24px;
+  margin: 12px;
+}
+
+.resume-link {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#presentation {
+  font-family: "gothic medium";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#resumeP {
+  background-color: cadetblue;
+}
+
+#workP {
+  background-color: darkorchid;
+}
+
+#skillsP {
+  background-color: coral;
+}
+
+#main-link {
+  display: flex;
+  list-style-type: none;
+}
+
+footer {
+  background-color: mediumturquoise;
+  margin: 0;
+  width: 100%;
+}
+footer .footer-list a {
+  text-decoration: none;
+}
+
+#footer-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin: 0;
+  padding-top: 1.4rem;
+  padding-left: 0;
+}
+
+.brand-icon {
+  font-size: 2rem;
+}
+
+#social-media-icons {
+  display: flex;
+  list-style-type: none;
+}
+#social-media-icons li {
+  padding: 4px;
+}
+
+.contact-footer {
+  padding: 7px;
+  padding-left: 0;
+}
+
+#made-by {
+  margin-top: 0.3rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 85%;
+}/*# sourceMappingURL=index.css.map */

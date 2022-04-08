@@ -1,0 +1,12 @@
+@mixin flex-list {
+  display: flex;
+  list-style-type: none;
+}
+
+@mixin title {
+  margin: 0;
+}
+
+@mixin about-me-title-freelancer {
+  font-size: 37px;
+}

@@ -1,0 +1,46 @@
+@use './mixins';
+$liColour: lightgray;
+$titleColour: slategray;
+
+.nav-element {
+  @include mixins.flex-list;
+  justify-content: space-between;
+}
+
+// Navigation padding to keep it a bit lower
+#navigation {
+  padding-top: 0.5rem;
+}
+
+#freelancer {
+  @include mixins.about-me-title-freelancer;
+}
+
+// Move the right side to the bottom
+#nav-right {
+  align-items: flex-end;
+}
+
+.title {
+  margin: 0;
+  font-family:"Crimson Text", serif, sans-serif;
+  font-size: 70px;
+  color: $titleColour;
+}
+
+// navigation header and list
+.nav-list-right {
+  padding: 7px;
+  color: $liColour;
+  font-weight: 600;
+  font-size: 20px;
+    
+}
+
+#nav-list {
+  padding-top: 4.89rem;
+}
+
+#nav-list a {
+  text-decoration: none;
+}

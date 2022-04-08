@@ -1,0 +1,82 @@
+// main section 
+@use './mixins';
+
+$resumeColour: cadetblue;
+$workColour: darkorchid;
+$skillsColour: coral;
+
+#main-section{
+  @include mixins.flex-list;
+}
+
+#main-image {
+    width: 380px;
+    border-radius: 50%;
+}
+
+.main-section {
+  padding-top: 2.5rem;
+
+  h1 {
+    font-size: 70px;
+  }
+}
+
+.title {
+  margin: 0;
+}
+
+// About me
+#about-me {
+  font-size: 57px;
+  margin-left: 200px;
+}
+
+#about-me-title {
+  @include mixins.about-me-title-freelancer;
+}
+
+.main-flex {
+    padding: 12px;
+}
+
+.resume-list {
+  margin: 0;
+  font-size: 16px;
+  padding: 2.5rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  flex: 0 0 24px;
+  margin: 12px;
+}
+
+.resume-link {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+#presentation {
+  font-family:'gothic medium';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+// Main page circles
+#resumeP {
+  background-color: $resumeColour;
+}
+
+#workP {
+  background-color: $workColour;
+}
+
+#skillsP {
+  background-color: $skillsColour;
+}
+
+// The Circles and their links
+#main-link {
+  @include mixins.flex-list;
+}
