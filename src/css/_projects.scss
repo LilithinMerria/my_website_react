@@ -1,0 +1,55 @@
+@use './mixins';
+
+#project-title {
+  @include mixins.page-title;
+  margin: auto;
+  width: fit-content;
+  border-bottom: 2px solid gray;
+}
+
+.project-flex {
+  @include mixins.flex-list;
+  align-items: center;
+  border-bottom: solid gray;
+}
+
+.project-circle {
+  margin-right: 18rem;
+}
+
+.project-image {
+  width: 25rem;
+}
+
+.project-description {
+  padding: 12px;
+  h4, h5, p {
+    margin: 0;
+  }
+}
+
+
+// Circles' colours
+#project-one {
+  @include mixins.circle-colour;
+}
+
+#project-two {
+  @include mixins.circle-colour ($colour: darkorchid);
+}
+
+#project-three {
+  @include mixins.circle-colour ($colour: coral);
+}
+
+#project-four {
+  @include mixins.circle-colour ($colour: cornflowerblue);
+}
+
+#project-five {
+  @include mixins.circle-colour ($colour: rgb(102, 130, 53));
+}
+
+#project-six {
+  @include mixins.circle-colour ($colour: darkorchid);
+}

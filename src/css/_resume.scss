@@ -1,9 +1,7 @@
 @use './mixins';
 
 #resume-title {
-  text-align: center;
-  font-family: 'fantasy';
-  font-size: 37px;
+  @include mixins.page-title;
 }
 
 #resume-grid {

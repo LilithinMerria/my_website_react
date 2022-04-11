@@ -13,7 +13,7 @@ const Nav = () => {
       <ul id="nav-right" className="nav-element">
         <li className="nav-list-right"><Link to="/">{navObj[0]}</Link></li>
         <li className="nav-list-right"><Link to="/resume">{navObj[1]}</Link></li>
-        <li className="nav-list-right"><Link to="/">{navObj[2]}</Link></li>
+        <li className="nav-list-right"><Link to="/projects">{navObj[2]}</Link></li>
         <li className="nav-list-right"><Link to="/">{navObj[3]}</Link></li>
       </ul>
     </nav>

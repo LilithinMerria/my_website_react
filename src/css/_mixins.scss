@@ -14,3 +14,9 @@
 @mixin circle-colour($colour: cadetblue) {
   background-color: $colour;
 }
+
+@mixin page-title {
+  text-align: center;
+  font-size: 37px;
+  font-family: fantasy;
+}

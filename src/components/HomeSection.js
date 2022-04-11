@@ -18,9 +18,9 @@ const HomeSection = () => {
         </div>
 
         <div id="main-link">
-          <Link to="resume" className="resume-link"><p id="resumeP" className="resume-list">{HomeSectionData.resume}</p></Link>
-          <a href="#" className="resume-link"><p id="workP" className="resume-list">{HomeSectionData.work}</p></a>
-          <a href="#" className="resume-link"><p id="skillsP" className="resume-list">{HomeSectionData.skills}</p></a>
+          <Link to="/resume" className="resume-link"><p id="resumeP" className="resume-list">{HomeSectionData.resume}</p></Link>
+          <Link to="/projects" className="resume-link"><p id="workP" className="resume-list">{HomeSectionData.work}</p></Link>
+          <Link to="/resume" className="resume-link"><p id="skillsP" className="resume-list">{HomeSectionData.skills}</p></Link>
       </div>
       <p id="presentation">{HomeSectionData.presentation}</p>
 

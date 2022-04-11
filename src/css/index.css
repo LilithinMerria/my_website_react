@@ -78,12 +78,14 @@
 .resume-list {
   margin: 0;
   font-size: 16px;
+  text-align: center;
   padding: 2.5rem;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   flex: 0 0 24px;
   margin: 12px;
+  color: white;
 }
 
 .resume-link {
@@ -117,8 +119,8 @@
 
 #resume-title {
   text-align: center;
-  font-family: "fantasy";
   font-size: 37px;
+  font-family: fantasy;
 }
 
 #resume-grid {
@@ -154,6 +156,63 @@
 }
 #skills-and-languages ul li {
   list-style-type: none;
+}
+
+#project-title {
+  text-align: center;
+  font-size: 37px;
+  font-family: fantasy;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid gray;
+}
+
+.project-flex {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  border-bottom: solid gray;
+}
+
+.project-circle {
+  margin-right: 18rem;
+}
+
+.project-image {
+  width: 25rem;
+}
+
+.project-description {
+  padding: 12px;
+}
+.project-description h4, .project-description h5, .project-description p {
+  margin: 0;
+}
+
+#project-one {
+  background-color: cadetblue;
+}
+
+#project-two {
+  background-color: darkorchid;
+}
+
+#project-three {
+  background-color: coral;
+}
+
+#project-four {
+  background-color: cornflowerblue;
+}
+
+#project-five {
+  background-color: rgb(102, 130, 53);
+}
+
+#project-six {
+  background-color: darkorchid;
 }
 
 footer {
