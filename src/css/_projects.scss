@@ -3,6 +3,7 @@
 #project-title {
   @include mixins.page-title;
   margin: auto;
+  margin-top: 2rem;
   width: fit-content;
   border-bottom: 2px solid gray;
 }
@@ -60,20 +61,23 @@
 }
 
 // Media Projects 
-.project-flex {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-circle {
-  margin-right: 0;
-}
-
-.project-description {
-  text-align: center;
-   
-  h4, h5, p, a {
-    padding: 0.2em;
+@media screen and (max-width: 480px) {
+  
+  .project-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-circle {
+    margin-right: 0;
+  }
+  
+  .project-description {
+    text-align: center;
+     
+    h4, h5, p, a {
+      padding: 0.2em;
+    }
   }
 }

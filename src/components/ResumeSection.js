@@ -50,6 +50,7 @@ const ResumeSection = () => {
           <div id="skills">
             <h4>{resumeObj.skills.title}</h4>
             <ul>
+              <li>{resumeObj.skills.skillsTitle.reactjs}</li>
               <li>{resumeObj.skills.skillsTitle.python}</li>
               <li>{resumeObj.skills.skillsTitle.javascript}</li>
               <li>{resumeObj.skills.skillsTitle.css}</li>

@@ -5,7 +5,7 @@ const Nav = () => {
   
   return (
     <nav id="navigation" className="content-wrapper nav-element">
-      <div>
+      <div id="nav-left">
         <h1 id="yves" className="title">Yves Arthur</h1>
         <h3 id="freelancer" className="title sub-title">Freelancer Front-End Developer</h3>
       </div>

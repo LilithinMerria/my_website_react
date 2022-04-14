@@ -11,6 +11,7 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 2fr 1fr;
+  gap: 15em;
 }
 
 .experience {
@@ -51,6 +52,8 @@ section {
 }
 
 #skills-and-languages {
+  align-self: center;
+  justify-self: center;
   
   ul {
     padding-left: 0;

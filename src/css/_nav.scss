@@ -58,3 +58,20 @@ $titleColour: slategray;
 #nav-list a {
   text-decoration: none;
 }
+
+// Mobile Navigation 
+@media  screen and (max-width: 480px) {
+  
+  #yves {
+    font-size: 2.3rem;
+    line-height: 0.9em;
+  }
+  
+  #freelancer {
+    font-size: 1.2em;
+  }
+
+  #nav-right {
+    flex-direction: column;
+  }
+}

@@ -28,9 +28,10 @@ const resumeObj = {
   skills: {
     title: "Skills",
     skillsTitle: {
+      reactjs: "React JS",
       python: "Python",
       javascript: "Javascript",
-      css: "CSS",
+      css: "CSS3",
       sql: "SQL",
       html: "Html5"
     }

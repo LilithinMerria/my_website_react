@@ -12,7 +12,7 @@
 }
 
 #freelancer {
-  font-size: 37px;
+  font-size: 2.3rem;
 }
 
 #nav-right {
@@ -52,6 +52,20 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 480px) {
+  #yves {
+    font-size: 2.3rem;
+    line-height: 0.9em;
+  }
+
+  #freelancer {
+    font-size: 1.2em;
+  }
+
+  #nav-right {
+    flex-direction: column;
+  }
+}
 #main-section {
   display: flex;
   list-style-type: none;
@@ -79,7 +93,7 @@
 }
 
 #about-me-title {
-  font-size: 37px;
+  font-size: 2.3rem;
 }
 
 .main-flex {
@@ -165,6 +179,7 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 2fr 1fr;
+  gap: 15em;
 }
 
 .experience {
@@ -201,6 +216,10 @@ section h4 {
   margin-right: 5rem;
 }
 
+#skills-and-languages {
+  align-self: center;
+  justify-self: center;
+}
 #skills-and-languages ul {
   padding-left: 0;
 }
@@ -229,6 +248,7 @@ section h4 {
   text-align: center;
   font-size: 2.3rem;
   margin: auto;
+  margin-top: 2rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -285,23 +305,24 @@ section h4 {
   border-bottom: 0;
 }
 
-.project-flex {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+@media screen and (max-width: 480px) {
+  .project-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.project-circle {
-  margin-right: 0;
-}
+  .project-circle {
+    margin-right: 0;
+  }
 
-.project-description {
-  text-align: center;
+  .project-description {
+    text-align: center;
+  }
+  .project-description h4, .project-description h5, .project-description p, .project-description a {
+    padding: 0.2em;
+  }
 }
-.project-description h4, .project-description h5, .project-description p, .project-description a {
-  padding: 0.2em;
-}
-
 footer {
   background-color: mediumturquoise;
   margin: 0;
