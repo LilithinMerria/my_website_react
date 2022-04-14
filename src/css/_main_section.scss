@@ -10,7 +10,7 @@ $skillsColour: coral;
 }
 
 #main-image {
-    width: 380px;
+    width: 23.7em;
     border-radius: 50%;
 }
 
@@ -18,7 +18,7 @@ $skillsColour: coral;
   padding-top: 2.5rem;
 
   h1 {
-    font-size: 70px;
+    font-size: 4.37rem;
   }
 }
 
@@ -28,8 +28,8 @@ $skillsColour: coral;
 
 // About me
 #about-me {
-  font-size: 57px;
-  margin-left: 200px;
+  font-size: 3.5rem;
+  margin-left: 12.5rem;
 }
 
 #about-me-title {
@@ -37,16 +37,16 @@ $skillsColour: coral;
 }
 
 .main-flex {
-    padding: 12px;
+    padding: 0.75em;
 }
 
 .resume-list {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
   padding: 2.5rem;
-  height: 50px;
-  width: 50px;
+  height: 3.12rem;
+  width: 3.12rem;
   border-radius: 50%;
   flex: 0 0 24px;
   margin: 12px;
@@ -59,10 +59,12 @@ $skillsColour: coral;
   color: white;
 }
 
+// A hard worker ...
 #presentation {
-  font-family:'gothic medium';
-  font-weight: 700;
-  font-size: 20px;
+  font-family:'cookie', serif, sans-serif;
+  font-weight: 500;
+  font-size: 1.87rem;
+  color: slategray;
 }
 
 // Main page circles
@@ -81,4 +83,31 @@ $skillsColour: coral;
 // The Circles and their links
 #main-link {
   @include mixins.flex-list;
+}
+
+// Media Main Section
+@media  screen and (max-width: 480px) {
+  #main-image {
+    width: 20rem;
+  }
+
+  #main-section{
+    display: block;
+  }
+
+  #main-link {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-me {
+    font-size: 3.5rem;
+    margin-left: 0;
+  }
+
+  #greetings, #presentation {
+    text-align: center;
+  }
+  
 }

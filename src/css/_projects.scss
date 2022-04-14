@@ -22,7 +22,7 @@
 }
 
 .project-description {
-  padding: 12px;
+  padding: 0.75em;
   h4, h5, p {
     margin: 0;
   }
@@ -52,4 +52,28 @@
 
 #project-six {
   @include mixins.circle-colour ($colour: darkorchid);
+}
+
+// Remove border-bottom from the last project
+#sixth-project {
+  border-bottom: 0;
+}
+
+// Media Projects 
+.project-flex {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-circle {
+  margin-right: 0;
+}
+
+.project-description {
+  text-align: center;
+   
+  h4, h5, p, a {
+    padding: 0.2em;
+  }
 }

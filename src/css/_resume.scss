@@ -1,7 +1,10 @@
 @use './mixins';
 
-#resume-title {
+#resume-title, #project-title {
   @include mixins.page-title;
+  font-family: 'dancing script','cormorant garamond', serif, sans-serif;
+  font-weight: 800;
+  font-size: 2.8rem;
 }
 
 #resume-grid {
@@ -15,6 +18,17 @@
   align-items: center;
 }
 
+.work {
+  @include mixins.title;
+}
+
+section {
+  
+  h4 {
+    font-size: 1.2rem;
+  }
+}
+
 #resume-info {
   @include mixins.circle-colour;
 }
@@ -25,6 +39,11 @@
 
 #education-title {
   @include mixins.circle-colour($colour: coral);
+}
+
+// Job Margin Top 
+.margin-top-resume {
+  margin-top: 2rem;
 }
 
 .circle-margin {
@@ -41,4 +60,24 @@
     }
   }
   
+}
+
+// Media Resume
+@media screen and (max-width: 480px) {
+  #resume-grid {
+    display: block;
+  }
+
+  .experience {
+    flex-direction: column;
+  }
+
+  .circle-margin {
+    margin: 0 0 0.75rem 0;
+  }
+
+  #skills-and-languages {
+    text-align: center;
+  }
+
 }

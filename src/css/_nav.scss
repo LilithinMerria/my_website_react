@@ -19,21 +19,35 @@ $titleColour: slategray;
 // Move the right side to the bottom
 #nav-right {
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .title {
   margin: 0;
   font-family:"Crimson Text", serif, sans-serif;
-  font-size: 70px;
+  font-size: 4.3rem;
   color: $titleColour;
 }
 
 // navigation header and list
 .nav-list-right {
-  padding: 7px;
+  
   color: $liColour;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+  }
+  
+  a:hover {
+    background-color: gray;
+    color: white;
+  }
     
 }
 

@@ -8,37 +8,37 @@ const ResumeSection = () => {
       
       <div id="resume-grid">
         <div id="professional-and-skills">
-          <div id="professional-info" className="experience">
+          {/*<div id="professional-info" className="experience">
             <h4 id="resume-info" className="resume-list circle-margin">{resumeObj.professional.info}</h4>
             <p>{resumeObj.professional.infoP}</p>
-          </div>
+  </div> */}
 
           <div id="work-experience" className="experience">
             <h4 id="work-experience-title" className="resume-list circle-margin">{resumeObj.workCircle.title}</h4>
             <div id="job">
               <div id="job1">
-                <h4>{resumeObj.workCircle.job1.workTitle}</h4>
-                <h5>{resumeObj.workCircle.job1.workYear}</h5>
+                <h4 className="work">{resumeObj.workCircle.job1.workTitle}</h4>
+                <h5 className="work">{resumeObj.workCircle.job1.workYear}</h5>
               </div>
 
-              <div id="job2">
-                <h4>{resumeObj.workCircle.job2.workTitle}</h4>
-                <h5>{resumeObj.workCircle.job2.workYear}</h5>
+              <div id="job2" className="margin-top-resume">
+                <h4 className="work">{resumeObj.workCircle.job2.workTitle}</h4>
+                <h5 className="work">{resumeObj.workCircle.job2.workYear}</h5>
               </div>
             </div>
           </div>
 
-          <div id="education" className="experience">
+          <div id="education" className="experience margin-top-resume">
             <h4 id="education-title" className="resume-list circle-margin">{resumeObj.education.title}</h4>
             <div id="all-education">
               <div id="university">
-                <h4>{resumeObj.education.bachelor.university}</h4>
-                <h5>{resumeObj.education.bachelor.bachelorYear}</h5>
+                <h4 className="work">{resumeObj.education.bachelor.university}</h4>
+                <h5 className="work">{resumeObj.education.bachelor.bachelorYear}</h5>
               </div>
 
-              <div id="high-school">
-                <h4>{resumeObj.education.highSchool.degree}</h4>
-                <h5>{resumeObj.education.highSchool.degreeYear}</h5>
+              <div id="high-school" className="margin-top-resume">
+                <h4 className="work">{resumeObj.education.highSchool.degree}</h4>
+                <h5 className="work">{resumeObj.education.highSchool.degreeYear}</h5>
               </div>
             </div>
           </div>

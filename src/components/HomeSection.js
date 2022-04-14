@@ -12,7 +12,7 @@ const HomeSection = () => {
       </div>
 
       <div id="about-me">
-        <div>
+        <div id="greetings">
           <h1 className="title">{HomeSectionData.title}</h1>
           <h3 id="about-me-title" className="title sub-title">{HomeSectionData.subTitle}</h3>
         </div>
